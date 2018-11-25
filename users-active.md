@@ -221,6 +221,10 @@ Example response
                 "value": "80.00%",
                 "rank": 63
             }
+        },
+        "clan": {
+            "id": 17,
+            "name": "Example"
         }
     },
     {
@@ -438,6 +442,10 @@ Example response
                 "value": "0.08%",
                 "rank": 1312
             }
+        },
+        "clan": {
+            "id": 17,
+            "name": "Example"
         }
     },
     ...
