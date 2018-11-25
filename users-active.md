@@ -223,8 +223,8 @@ Example response
             }
         },
         "clan": {
-            "id": 17,
-            "name": "Example"
+            "id": 17, // will be null if the user is not in clan
+            "name": "Example"  // will be null if the user is not in clan
         }
     },
     {
