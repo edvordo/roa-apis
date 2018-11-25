@@ -2,6 +2,9 @@ Endpoint: `https://(www|beta).avabur.com/api/users/active`
 
 Lists info for users/players active in ôast 30 day (doesn't respect the query parameter `ids[]`)
 
+Contains info about clan under the `"clan"` key in the json response. 
+`clan` will always have an `id` and `name`, but they can be `null` if the given user is not in a clan
+
 Example response
 
 ```json
