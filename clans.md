@@ -1,6 +1,8 @@
 Endpoint: `https://(www|beta).avabur.com/api/clans`
 
-Lists all currently active clans in the game. Has a query parameter *[unknown atm]* that includes members of the clans.
+Lists all currently active clans in the game.
+
+There is no way to get the member list, that's nly available for a [specific clan](https://github.com/edvordo/roa-apis/blob/master/clan-specific.md)
 
 Example response
 
