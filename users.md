@@ -2,6 +2,9 @@ Endpoint: `https://(www|beta).avabur.com/api/users`
 
 **Requires a list of usernames you want to show** passed as a query parameter `ids[]`
 
+Contains info about clan under the `"clan"` key in the json response. 
+`clan` will always have an `id` and `name`, but they can be `null` if the given user is not in a clan
+
 Example endpoint: `https://www.avabur.com/api/users?ids[]=Vysn&ids[]=Reltorakii`
 
 Example response
@@ -225,8 +228,8 @@ Example response
             }
         },
         "clan": {
-            "id": 17,
-            "name": "Example"
+            "id": 17, // will be null if the user is not in clan
+            "name": "Example" // will be null if the user is not in clan
         }
     },
     {
@@ -446,8 +449,8 @@ Example response
             }
         },
         "clan": {
-            "id": 17,
-            "name": "Heavy Metal Unicorns"
+            "id": 17, // will be null if the user is not in clan
+            "name": "Heavy Metal Unicorns" // will be null if the user is not in clan
         }
     }
 ]
