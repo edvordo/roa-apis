@@ -12,6 +12,7 @@ Example response
 ```json
 [
     {
+        "unique_id": "f88294bc-0249-11e9-a22e-ac1f6b2470e2",
         "username": "Vysn",
         "fame": 41104,
         "levels": {
