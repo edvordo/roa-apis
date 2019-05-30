@@ -97,6 +97,10 @@ Example response
             "total_event_score": {
                 "value": 383853,
                 "rank": 231
+            },
+            "strongest_monster_killed": {
+              "id": 1065,
+              "name": "Farm Mob #41"
             }
         },
         "quests": {
@@ -318,6 +322,10 @@ Example response
             "total_event_score": {
                 "value": 514293,
                 "rank": 145
+            },
+            "strongest_monster_killed": {
+              "id": 1065,
+              "name": "Farm Mob #41"
             }
         },
         "quests": {
